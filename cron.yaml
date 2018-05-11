@@ -1,0 +1,5 @@
+cron:
+- description: this cron runs the /reviews endpoint periodically
+  url: /reviews
+  timezone: America/New_York
+  schedule: every 3 hours from 9:00 to 18:00
